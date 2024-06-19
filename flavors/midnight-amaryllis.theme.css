@@ -14,11 +14,12 @@
 
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 
+@import url('https://api.fontshare.com/v2/css?f[]=chillax@400&display=swap');
+
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font */
-	/*--font: 'figtree';*/
-	--font: 'Chillax';
+	--font: 'Chillax', sans-serif;
 
 	/* top left corner text */
 	--corner-text: 'Amaryllis';
@@ -87,7 +88,7 @@
 	--blurple-to-accent-3-filter: none; /* add friend page school icon */
 }
 
-.childWrapper_a6ce15:has(> svg:not(.favoriteIcon_adf80e)) {
+.childWrapper__760c6:has(> svg:not(.favoriteIcon_adf80e)) {
 	background-image: url('https://github.com/yuhkix/midnight-discord/blob/master/assets/amaryllis/amaryllis.png?raw=true');
 	background-color: transparent !important;
 	background-size: cover;
